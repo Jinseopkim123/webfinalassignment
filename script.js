@@ -1,4 +1,4 @@
-// JavaScript for Accordion Functionality
+// Accordion
 const accordionButtons = document.querySelectorAll('.accordion-btn');
 
 accordionButtons.forEach(button => {
@@ -13,6 +13,7 @@ accordionButtons.forEach(button => {
     });
 });
 
+// For the picture carousel
 document.addEventListener('DOMContentLoaded', () => {
     const carousels = document.querySelectorAll('.picture-card-carousel');
 
